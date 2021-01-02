@@ -1,0 +1,14 @@
+body{
+    background-color: #ebd5b3 ;
+    color:black;
+    font-size: 16px;
+    font-weight:bold;
+    margin-left: 2rem;
+}
+
+#button {
+background-color:#D3D3D3
+color: black;
+font-size: 16px;
+padding: 3px;
+}
