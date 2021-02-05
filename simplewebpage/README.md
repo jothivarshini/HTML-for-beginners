@@ -1,3 +1,2 @@
-# html-startups-for-beginners
-the html files that i create as a beginner
+The first web page that I created from the teachings of a basic HTML workshop
 
