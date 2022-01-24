@@ -1,4 +1,4 @@
-# HTML-for-beginners
+# WEB DEV Basics
 
 Some Initial HTML Pages
 
