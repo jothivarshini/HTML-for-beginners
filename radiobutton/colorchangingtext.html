@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Changing text</title>
+    </head>
+    <script language = "Javascript">
+        function colorchange()
+        {
+            var element = document.getElementsByName("color");
+            for(i=0;i<element.length; i++)
+            {
+                if(element[i].checked)
+                {
+                    var name = element[i].value;
+                    var text = document.getElementById("text")
+                    text.style.color = name;
+                }
+            }
+        }
+    </script>
+    <body>
+        <h3>Select a color from the list to change color of text</h3>
+        <input type ="radio" name ="color" value = "blue" onclick="colorchange()"> blue
+        <input type ="radio" name ="color" value = "purple" onclick="colorchange()"> purple
+        <input type ="radio" name ="color" value = "pink" onclick="colorchange()"> pink
+        <br><br>
+        <div id="text" style="color:black">I can change color!</div>
+    </body>
+</html>

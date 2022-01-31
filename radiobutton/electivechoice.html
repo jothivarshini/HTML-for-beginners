@@ -1,0 +1,43 @@
+<html>  
+<body>  
+<br><b> Choose your preferred elective: </b><br>  
+<input type="radio" id="SENSORS" value="SENSORS">Sensors<br>   
+<input type="radio" id="PSYCHOLOGY" value="PSYCHOLOGY">Psychology<br>   
+<input type="radio" id="MANAGEMENT" value="MANAGEMENT">Management<br>  
+<input type="radio" id="PRODUCTDESIGN" value="PRODUCTDESIGN">Product Design<br><br>       
+  
+<button type="button" onclick=" checkButton()"> Submit </button>   
+      
+<h3 id="disp" style= "color:rgb(0, 128, 0)"> </h3>  
+<h4 id="error" style= "color:rgb(0, 38, 255)"> </h4>  
+</body>  
+  
+<script>  
+function checkButton() {    
+            if(document.getElementById('SENSORS').checked) {   
+                document.getElementById("disp").innerHTML   
+                    = document.getElementById("SENSORS").value   
+                    + " radio button is checked";   
+            }   
+            else if(document.getElementById('PSYCHOLOGY').checked) {   
+                document.getElementById("disp").innerHTML   
+                    = document.getElementById("PSYCHOLOGY").value   
+                    + " radio button is checked";     
+            }   
+            else if(document.getElementById('MANAGEMENT').checked) {   
+                document.getElementById("disp").innerHTML   
+                    = document.getElementById("MANAGEMENT").value   
+                    + " radio button is checked";     
+            }   
+            else if(document.getElementById('PRODUCTDESIGN').checked) {   
+                document.getElementById("disp").innerHTML   
+                    = document.getElementById("PRODUCTDESIGN").value   
+                    + " radio button is checked";     
+            }  
+            else {   
+                document.getElementById("error").innerHTML   
+                    = "You have not selected any elective";   
+            }   
+        }   
+    </script>   
+</html>  
