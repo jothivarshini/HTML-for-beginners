@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Number Converter</title>
+</head>
+<script language="Javascript">
+function bin() {
+var n = parseInt(document.f1.t1.value);
+document.f1.t2.value = n.toString(2);
+}
+function oct() {
+var n = parseInt(document.f1.t1.value);
+document.f1.t2.value = n.toString(8);
+}
+function hex() {
+var n = parseInt(document.f1.t1.value);
+document.f1.t2.value = n.toString(16);
+}
+</script>
+<body>
+<form name="f1">
+Enter the decimal number :
+<input type="text" name="t1">
+<br><br>
+<input type="button" value="Binary" onclick="bin()">
+<input type="button" value="Hexa Decimal" onclick="hex()">
+<input type="button" value="Octal" onclick="oct()">
+<br><br>
+Converted value : <input type="text" name="t2">
+</form>
+</body>
+</html>
