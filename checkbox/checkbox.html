@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Display some text when the checkbox is checked:</p>
+
+<label for="ML">CSE1015:</label> 
+<input type="checkbox" id="myCheck1" onclick="myFunction()">
+<label for="AI">CSE1014:</label> 
+<input type="checkbox" id="myCheck2" onclick="myFunction()">
+<label for="IWP">CSE3002:</label> 
+<input type="checkbox" id="myCheck3" onclick="myFunction()">
+
+<p id="choice1" style="display:none">You have chosen CSE1015!</p>
+
+<script>
+function myFunction() {
+  var checkBox = document.getElementById("myCheck1");
+  var text = document.getElementById("choice1");
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+     text.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
