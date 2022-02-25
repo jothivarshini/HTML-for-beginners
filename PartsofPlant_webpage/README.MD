@@ -9,3 +9,7 @@ clicked, it allows the user to go to a subpage that describes the part.
 
 Output Screenshots of the Webpage are as follows: 
 
+![image](https://user-images.githubusercontent.com/73244900/155717496-735d2225-a8af-44ed-992e-ef28c84b369c.png)
+
+![image](https://user-images.githubusercontent.com/73244900/155717665-85648810-4b37-419b-92f5-e90b3f0dfa63.png)
+
