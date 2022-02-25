@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Responsive web page -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parts of Plant - Mainpage</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .header {
+                background-color: #a7ec9eb7;
+                color: #000000;
+                text-align: center;
+                font-size: larger;
+                padding: 7px;
+            }
+            .video {
+                width: 50%;
+                height: auto;
+            }
+            .center{
+                 display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 width: 50%;
+                }
+        </style>
+    </head>
+    
+<body>
+
+    <div class="header">
+        <h2>Parts of Plant Tutorial</h2>
+    </div>
+
+    <br>
+
+    <center>
+        <div class="video">
+            <video width="800" height="400" controls>
+                <source src="plantparts.mp4" type="video/mp4">
+            </video>
+        </div>
+    </center>
+
+   <br>
+
+   <center>
+       <h2>Visual Representation</h2>
+        <p>Click on each <mark>part of the plant</mark> that has been labelled to know more about the part.</p>
+        <p>Note: Click closer to the roots for the stem page</p>
+   </center>
+    
+
+    <img src="plant.jpg" alt="plant" class="center" usemap="#image_map">
+    
+    <map name="image_map">
+        <area alt="flower" title="flower" href="flower.html" coords="435,1,758,207" shape="rect">
+        <area alt="seed" title="seed" href="seed.html" coords="603,365,61" shape="circle">
+        <area alt="leaf" title="leaf" href="leaf.html" coords="425,467,646,602" shape="rect">
+        <area alt="stem" title="stem" href="stem.html" coords="515,605,758,685" shape="rect">
+        <area alt="root" title="root" href="root.html" coords="366,701,896,1017" shape="rect">
+    </map>
+    
+    </body>
+    </html>
